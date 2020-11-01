@@ -1,0 +1,35 @@
+body{
+    background-color:lavender;
+    border:solid;
+}
+.header *{
+    background-color:cadetblue;
+    color: lightgrey;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    border:solid;
+    
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 15px;
+    font-family: Georgia;
+    color: #000000;
+}
+
+.picture{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 15px;
+    width: 290px;
+}
+.grid img{
+    border: 5x solid #000000;
+    border-radius: 20px;
+}
